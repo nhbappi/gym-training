@@ -1,0 +1,282 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    color: white;
+}
+.logos{
+    width: 120px;
+    cursor: pointer;
+    color: red;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    /* position: relative; */
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}  
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    /* position: absolute; */
+    left: 0;
+    bottom: -10;
+    transition: 0.5s;
+} 
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content h4{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor:pointer;
+}
+
+
+.middle{
+    width: 100%;
+    position: absolute;
+    bottom: -25%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+
+.middle h1{
+    font-size: 40px;
+    font-weight: 100px;
+
+    text-transform: uppercase;
+}
+
+.middle p{
+  
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.container{
+    display: flex;
+
+}
+.main{
+    display: flex;
+    margin-top: 155px;
+    margin-bottom: 150px;
+    background-color: gainsboro;
+    
+}
+.main-img{
+  
+    margin-top: 70px;
+    margin-left: 180px;
+    
+    
+}
+.main-plan{
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 180px;
+}
+.btn{
+    margin-top: 130px;
+    margin-bottom: 80px;
+    background-color: rgb(37, 35, 35);
+    
+}
+
+.main-2{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 120px;
+    background-image: linear-gradient(rgba(255, 254, 254, 0.75),rgba(255, 255, 255, 0.75)),url(banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-img2{
+  
+    margin-top: 50px;
+    margin-right: 250px;
+  margin-bottom: 20px;
+    
+    
+}
+.main-plan2{
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+ 
+    
+  }
+  .main-3{
+    display: flex;
+    margin-top: 155px;
+    margin-bottom: 100px;
+    background-color: gainsboro;
+  }
+
+  .main-img3{
+    margin-top: 70px;
+    margin-left: 220px;
+    margin-bottom: 80px;
+    
+    
+}
+.main-plan3{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 120px;
+  }
+
+  .main-plan3 ul{
+      font-size: 20px;
+  }
+
+
+  .last{
+      display: flex;
+      text-align: start;
+      justify-content: space-between;
+  }
+  .last-1 {
+      margin: 45px;
+
+  }
+  .last-1 p{
+      color: grey;
+  }
+ 
+  .last-2 {
+      margin: 45px;
+  }
+  .last-2 p{
+      color: grey;
+  }
+  .last-3 {
+      margin: 45px;
+  }
+  .last-3 p{
+      color: grey;
+  }
+
+
+
+
+
+  
+ 
+  .social{
+      width: 100%;
+      height: 200px;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+     
+      background-color: #232323;
+  }
+  .social-links{
+      display: flex;
+  }
+  .social-links a{
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      text-decoration: none;
+      color: rgb(241, 238, 238);
+      background-color: #515151;
+      box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+      margin: 0 10px;
+      border-radius: 50%;
+      /* position: relative; */
+      overflow: hidden;
+      transition: 0.5s;
+  }
+  .social-links a .fab{
+      font-size: 20px;
+      line-height: 35px;
+      position: relative;
+      
+  }
+
+
+  .copy{
+      color: #666666;
+     
+
+      
+  }
+  .foote h2{
+    font-size: 35px;
+  }
+
+
+
+
+ 
+
+
+ 
+  
+ 
